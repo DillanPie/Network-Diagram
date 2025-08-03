@@ -3,7 +3,11 @@
 This repository documents the network architecture, services, and security layers of my self-hosted home lab.
 
 ---
+## 🗺️ Network Diagram
 
+![Network Diagram](./Network-Diagram.drawio.png)
+
+---
 ## 📡 Network Overview
 
 - **Router:** OpenWRT-based firewall/router with VLAN and DNS segregation
@@ -47,12 +51,6 @@ This repository documents the network architecture, services, and security layer
   - Role: Guard or Middle Node
   - Port: `443`
   - Packages: `nyx`, `fail2ban`, `ufw`, `clamav`
-
----
-
-## 🗺️ Network Diagram
-
-![Network Diagram](./Network-Diagram.drawio.png)
 
 ---
 
